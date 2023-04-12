@@ -23,7 +23,7 @@ function cronometro(){
     if(hora <= 0 && min <= 0 && seg <= 0){
         clearInterval(inicio);
     }
-    if(seg==0){
+    if(seg<=0){
         if(min!=0){
             seg=59;
             min--;
